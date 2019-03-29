@@ -9,21 +9,19 @@ var pyschicChoice = "";
 var userGuess = "";
 
 
-var alphabet = [
-			"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
-			"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"
-			];
+var alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 
       
 //Generates random number
 
 var pyschic = function()  {
-	pyschicChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
+  pyschicChoice = alphabet[Math.floor(Math.random() * alphabet.length)];
+}
 
 	
 
-}
+
 
 //function will reset everything after win or lose
 
