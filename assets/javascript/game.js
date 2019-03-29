@@ -54,7 +54,7 @@ document.onkeyup = function(event)  {
 	// Output to the webpage
 	var html = 
 		"<p>Guesses Left </p>" +
-		"<p>"+ guessesLeft + "</p>" +
+		"<p>${guessesLeft}</p>" +
 		"<p>Letters Guessed</p>" + 
 		"<p>"+ guessesSoFar + "</p>" +
 		"<br>" +
@@ -75,7 +75,7 @@ document.onkeyup = function(event)  {
 };
 
 var alertWin = function() {
-	alert("Congratulations You Won " + pyschicChoice);
+	alert("Congratulations You Won ");
 	resetGame();
 };
 
